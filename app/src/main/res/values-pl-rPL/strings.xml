@@ -5,4 +5,5 @@
     <string name="login_field">Login</string>
     <string name="password_field">Haslo</string>
     <string name="switch_txt">Co to robi??</string>
+    <string name="chat_txt">Rozpocznij czat</string>
 </resources>
