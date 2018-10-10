@@ -34,7 +34,7 @@ class MainActivity : Activity() {
         if (requestCode == 50)
             Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult")
             if(resultCode == Activity.RESULT_OK){
-                val messagePassed = data.getStringExtra("Response")
+                val messagePassed = data?.getStringExtra("Response")
                 val duration = Toast.LENGTH_LONG
                 val toast = Toast.makeText(this,messagePassed,duration)
                 toast.show()
